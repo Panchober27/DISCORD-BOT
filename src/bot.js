@@ -4,7 +4,6 @@ const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
 });
 
-
 const messageController = require("./controller/messages");
 
 const live = () => {
