@@ -17,6 +17,6 @@ const gotMessage = (msg) => {
     msg.reply("hola beep boop");
   }
 };
-client.on("message", messageController.entryMessage);
+client.on("messageCreate", messageController.entryMessage);
 
 client.login(process.env.CLIENT_TOKEN);
